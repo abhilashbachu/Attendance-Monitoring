@@ -1,0 +1,19 @@
+<div class="container-fluid login-screen">
+  <div class="row">
+    <div class="col-sm-4 offset-md-4 login card">
+      <div class="card-body">
+        <div>
+          <label class="text-label">Email</label>
+          <input [(ngModel)]="emailId" class="text-input email-input" type="text">
+        </div>
+        <div>
+          <label class="text-label">Password</label>
+          <input [(ngModel)]="password" class="text-input" type="password">
+        </div>
+        <div class="login-div">
+          <input class="login-btn" (click)="login()" type="button" value="Log-in">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

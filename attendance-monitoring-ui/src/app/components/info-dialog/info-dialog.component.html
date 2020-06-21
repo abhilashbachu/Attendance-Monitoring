@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row text">
+    <div class="col-sm-12">
+      <span *ngIf="data">
+        User registered successfully
+      </span>
+    </div>
+    <div class="col-sm-12">
+      <span *ngIf='!data'>
+        Error while saving user
+      </span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 button-div">
+      <button class=" button" (click)="closeDialog()">OK</button>
+    </div>
+  </div>
+</div>

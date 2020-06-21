@@ -1,0 +1,55 @@
+.heading {
+    height: 10vh;
+    font-size: 20px;
+    color: #f36;
+}
+
+.heading-content {
+    text-align: center;
+    padding-top: 1.5%;
+    border-bottom: 3px solid #f36;
+}
+
+.content {
+    height: 90vh;
+    margin-top: 2%;
+}
+
+.collapse-icon {
+    margin: 15px;
+    color: #f36;
+    border: none;
+    background-color: white;
+}
+
+.all {
+    color: #f36;
+}
+
+.sidenav-content {
+    margin: 15px;
+    background-color: white;
+    width: 100%;
+}
+
+.sidenav {
+    border-right: 3px solid #f36;
+}
+
+.selected-div {
+    background-color: #f36;
+}
+
+.selected-icon {
+    color: white;
+}
+
+.selected-heading {
+    color: white;
+}
+
+.selected-div:hover::before {
+    background-color: #f36 !important;
+    font-size: 18px;
+}
+

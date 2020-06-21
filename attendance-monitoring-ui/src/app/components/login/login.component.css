@@ -1,0 +1,45 @@
+.login-screen {
+    background-image: url('../../../assets/bg.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+}
+
+.label-div {
+    display: inline-grid;
+}
+
+.text-label {
+    padding: 4%;
+    font-size: 20px;
+}
+
+.text-input {
+    height: 6vh;
+    width: 44vh;
+}
+
+.email-input {
+    margin-left: 7%;
+}
+
+.login-div {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.login-btn {
+    border: none;
+    background-color: #81d4fa;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 6px;
+}
+
+.login {
+    margin-top: 13%;
+    text-align: center;
+}
